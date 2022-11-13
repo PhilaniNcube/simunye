@@ -18,19 +18,20 @@ const HomeHero = () => {
         alt="background"
       />
       <div className="h-full absolute p-12  top-0 left-0 right-0 flex max-w-7xl mx-auto flex-col justify-center md:justify-end items-start">
-        <h1 className={`text-3xl md:text-5xl lg:text-7xl text-white font-bold ${fraunces.className} `}>
+        <h1
+          className={`text-3xl md:text-5xl lg:text-7xl text-white font-bold ${fraunces.className} `}
+        >
           Fresh & Organic <br /> Produce
         </h1>
         <p className="text-md md:text-lg lg:text-xl mt-3 text-slate-50 max-w-[30ch] leading-7">
           From the farm to the plate. We provide quality produce, in a
           sustainable manner.
         </p>
-        <Link href="#herbs" passHref>
-          <button
-            className={`text-cream rounded-lg tracking-wider bg-dark-cyan text-xl lg:text-2xl mt-3 font-medium px-8 py-2 cursor-pointer ${fraunces.className}`}
-          >
-            View our produce
-          </button>
+        <Link
+          href="#herbs"
+          className={`text-cream rounded-lg hidden tracking-wider bg-dark-cyan text-xl lg:text-2xl mt-3 font-medium px-8 py-2 cursor-pointer ${fraunces.className}`}
+        >
+          View our produce
         </Link>
       </div>
     </header>
