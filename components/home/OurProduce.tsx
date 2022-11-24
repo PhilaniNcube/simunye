@@ -21,7 +21,7 @@ const collection = [
     image: '/images/sweet_potato.jpg',
   },
   {
-    name: 'Sweet Potato Seedlings',
+    name: 'Sweet Potato Vines',
     image: '/images/seedlings.jpg'
   },
   {
@@ -31,6 +31,10 @@ const collection = [
   {
     name: 'Herbs',
     image: '/images/organic_herbs.jpg'
+  },
+  {
+    name: 'Grafted Fruit Trees',
+    image: '/images/fruit_tree.jpg'
   }
 ]
 
@@ -43,7 +47,7 @@ const collection = [
           Our Products
         </h1>
       </div>
-      <div className="w-full grid grid-cols-2 pt-24 md:grid-cols-4 z-10 gap-6">
+      <div className="w-full grid grid-cols-2 pt-24 md:grid-cols-4 lg:grid-cols-5 z-10 gap-6">
         {collection.map((item) => (
           <div key={item.name} className="w-full">
             <Image
@@ -53,7 +57,7 @@ const collection = [
               alt={item.name}
               className="w-full rounded-full object-cover"
             />
-            <p className={`${fraunces.className} text-base md:text-lg lg:text-2xl mt-2 text-slate-700 font-medium text-center`}>{item.name}</p>
+            <p className={`${fraunces.className} text-base md:text-lg lg:text-xl mt-2 text-slate-700 font-medium text-center`}>{item.name}</p>
           </div>
         ))}
       </div>

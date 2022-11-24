@@ -62,20 +62,20 @@ const Vegetables = () => {
 const benefits = [
   {
     title: "Fresh",
-    src: "/images/food/icons/svg/014-fresh.svg",
+    src: "/images/fresh.jpg",
     description: "Fresh produce straight from the farm to your plate",
   },
   {
     title: "Organic",
-    src: "/images/vegetables/icons/svg/031-cabbage.svg",
+    src: "/images/organic.jpg",
     description:
       "Our produce is farmed organicly for the health concious consumer",
   },
   {
-    title: "Local",
-    src: "/images/location/icons/svg/001-location.svg",
+    title: "Variety",
+    src: "/images/farm.jpg",
     description:
-      "Our farm is located just outside Harare so you are supporting local produce",
+      "Our farm produces a wide range of produce and livestock all raised ethically",
   },
 ];
 
@@ -102,7 +102,7 @@ const WhySection = () => {
                 alt="Icon"
                 width={200}
                 height={200}
-                className="h-20 w-20 rounded-full p-3 bg-cream border border-cream"
+                className="h-20 w-20 rounded-full bg-cream border border-cream"
               />
               <h4
                 className={`${fraunces.className} font-bold text-cream text-2xl`}
