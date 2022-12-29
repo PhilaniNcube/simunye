@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Fraunces } from "@next/font/google";
 
-const fraunces = Fraunces({
+export const fraunces = Fraunces({
   weight: '800',
   subsets: ['latin']
 })
@@ -21,11 +21,14 @@ const HomeHero = () => {
         <h1
           className={`text-3xl md:text-5xl lg:text-7xl text-white font-bold ${fraunces.className} `}
         >
-          Fresh & Organic <br /> Produce
+          Fresh, Organic & <br />
+          Sustainable Produce
         </h1>
-        <p className="text-md md:text-lg lg:text-xl mt-3 text-slate-50 max-w-[30ch] leading-7">
-          From the farm to the plate. We provide quality produce, in a
-          sustainable manner.
+        <p className="text-md md:text-lg lg:text-xl mt-3 text-slate-50 max-w-[50ch] leading-7">
+          Experience the difference with our fresh, sustainably grown produce.
+          From herbs to avocados to sweet potatoes, our organic farming
+          practices ensure that you get the highest-quality, most flavorful
+          products available.
         </p>
         <Link
           href="#herbs"

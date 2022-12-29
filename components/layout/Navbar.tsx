@@ -7,6 +7,25 @@ const barlow = Barlow({
   subsets: ['latin']
 })
 
+export const links = [
+  {
+    url: '/',
+    text: "Home"
+  },
+  {
+    url: '/about-us',
+    text: "About Us"
+  },
+  {
+    url: '/produce',
+    text: "Our Produce"
+  },
+  {
+    url: '/livestock',
+    text: "Our Livestock"
+  },
+]
+
 const Navbar = () => {
   return (
     <nav className={`bg-transparent py-4 px-4 ${barlow.className}`}>
@@ -19,22 +38,16 @@ const Navbar = () => {
           />
         </Link>
 
-        <ul className="hidden  space-x-6 items-center">
-          <li className="text-md uppercase text-grey">
-            <Link className={barlow.className} href="/">
-              Home
+        <ul className="hidden lg:flex space-x-6 items-center">
+          {links.map((item) => (
+            <Link
+            key={item.text}
+              className={`${barlow.className} text-md uppercase text-grey`}
+              href={item.url}
+            >
+              {item.text}
             </Link>
-          </li>
-          <li className="text-md uppercase text-grey">
-            <Link className={barlow.className} href="/about">
-              About Us
-            </Link>
-          </li>
-          <li className="text-md uppercase text-grey">
-            <Link className={barlow.className} href="/produce">
-              Our Produce
-            </Link>
-          </li>
+          ))}
         </ul>
       </div>
     </nav>
