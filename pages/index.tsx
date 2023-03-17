@@ -12,7 +12,7 @@ const Home: NextPage = () => {
   return (
     <Fragment>
       <Head>
-        <title>Simunye Agri</title>
+        <title>Sikunye Agro</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
      <HomeHero />

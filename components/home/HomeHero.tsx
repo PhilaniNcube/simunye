@@ -21,8 +21,7 @@ const HomeHero = () => {
         <h1
           className={`text-3xl md:text-5xl lg:text-7xl text-white font-bold ${fraunces.className} `}
         >
-          Fresh, Organic & <br />
-          Sustainable Produce
+          Harvesting nature's goodness, <br />one seed at a time.
         </h1>
         <p className="text-md md:text-lg lg:text-xl mt-3 text-slate-50 max-w-[50ch] leading-7">
           Experience the difference with our fresh, sustainably grown produce.

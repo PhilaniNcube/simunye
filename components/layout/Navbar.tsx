@@ -35,14 +35,14 @@ export default function Navbar() {
   const [showMenu, setShowMenu] = useState(false);
 
   return (
-    <div className="dark:bg-gray-900">
+    <div className="">
       <div>
         <div className="relative">
           {/* For md screen size */}
 
           {/* For md screen size */}
           {/* For large screens */}
-          <div className="w-full px-6 bg-gray-50 py-9">
+          <div className="w-full px-6  bg-gray-50 py-9">
             <div className="container flex items-center justify-between w-full mx-auto">
               <Image
                 src="/images/logo.png"
