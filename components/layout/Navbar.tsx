@@ -31,8 +31,7 @@ export const links = [
 
 
 export default function Navbar() {
-  const [searchInput, setSearchInput] = useState(true);
-  const [mdOptionsToggle, setMdOptionsToggle] = useState(true);
+
   const [showMenu, setShowMenu] = useState(false);
 
   return (
@@ -43,21 +42,21 @@ export default function Navbar() {
 
           {/* For md screen size */}
           {/* For large screens */}
-          <div className=" w-full bg-gray-50 px-6 py-9">
-            <div className="container mx-auto flex items-center w-full justify-between">
+          <div className="w-full px-6 bg-gray-50 py-9">
+            <div className="container flex items-center justify-between w-full mx-auto">
               <Image
                 src="/images/logo.png"
                 width={576}
                 height={301}
                 alt="Logo"
-                className="w-36 object-cover"
+                className="object-cover w-36"
               />
-              <ul className="hidden  md:flex items-center justify-center space-x-8">
+              <ul className="items-center justify-center hidden space-x-8 md:flex">
                 {links.map((link) => (
                   <Link
                     key={link.text}
                     href={link.url}
-                    className="dark:text-white text-base text-gray-800 focus:outline-none focus:ring-2 focus:ring-gray-800 hover:underline"
+                    className="text-base text-gray-800 dark:text-white focus:outline-none focus:ring-2 focus:ring-gray-800 hover:underline"
                   >
                     {link.text}
                   </Link>
@@ -90,15 +89,15 @@ export default function Navbar() {
               showMenu ? "flex" : "hidden"
             } absolute dark:bg-gray-900 z-10 inset-0 md:hidden bg-white flex-col h-screen w-full`}
           >
-            <div className="flex items-center justify-between border-b border-gray-200 dark:border-gray-700 pb-4 p-4">
+            <div className="flex items-center justify-between p-4 pb-4 border-b border-gray-200 dark:border-gray-700">
               <div className="flex items-center space-x-3"></div>
               <button
                 onClick={() => setShowMenu(false)}
                 aria-label="close menu"
-                className="focus:outline-none focus:ring-2 rounded focus:ring-gray-600"
+                className="rounded focus:outline-none focus:ring-2 focus:ring-gray-600"
               >
                 <svg
-                  className="fill-stroke text-gray-800 dark:text-white"
+                  className="text-gray-800 fill-stroke dark:text-white"
                   width={16}
                   height={16}
                   viewBox="0 0 16 16"
@@ -120,19 +119,19 @@ export default function Navbar() {
                 </svg>
               </button>
             </div>
-            <div className="mt-6 p-4">
+            <div className="p-4 mt-6">
               <ul className="flex flex-col space-y-6">
                 {links.map((item) => (
                   <Link
                     key={item.text}
                     href={item.url}
                     onClick={() => setShowMenu(false)}
-                    className="dark:text-white flex items-center justify-between hover:underline text-base text-gray-800 focus:outline-none focus:ring-2 focus:ring-gray-800"
+                    className="flex items-center justify-between text-base text-gray-800 dark:text-white hover:underline focus:outline-none focus:ring-2 focus:ring-gray-800"
                   >
                     {item.text}
                     <div>
                       <svg
-                        className="fill-stroke text-black dark:text-white"
+                        className="text-black fill-stroke dark:text-white"
                         width={12}
                         height={12}
                         viewBox="0 0 12 12"
