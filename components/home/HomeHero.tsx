@@ -9,15 +9,15 @@ export const fraunces = Fraunces({
 
 const HomeHero = () => {
   return (
-    <header className="h-[70vh] max-w-7xl mx-auto px-6 md:px-4 relative isolate">
+    <header className="h-[70vh] max-w-7xl mx-auto px-6 md:px-2 relative isolate">
       <Image
         width={1500}
         height={1000}
-        className="w-full rounded-3xl h-full object-cover object-left lg:object-center"
+        className="object-cover object-left w-full h-full rounded-3xl lg:object-center"
         src="/images/herbs.jpg"
         alt="background"
       />
-      <div className="h-full absolute p-12  top-0 left-0 right-0 flex max-w-7xl mx-auto flex-col justify-center md:justify-end items-start">
+      <div className="absolute top-0 left-0 right-0 flex flex-col items-start justify-center h-full p-12 mx-auto max-w-7xl md:justify-end">
         <h1
           className={`text-3xl md:text-5xl lg:text-7xl text-white font-bold ${fraunces.className} `}
         >

@@ -26,6 +26,10 @@ export const links = [
     url: '/livestock',
     text: "Our Livestock"
   },
+  {
+    url: '/events',
+    text: "Events"
+  },
 ]
 
 
@@ -42,7 +46,7 @@ export default function Navbar() {
 
           {/* For md screen size */}
           {/* For large screens */}
-          <div className="w-full px-6  bg-gray-50 py-9">
+          <div className="w-full px-6 mx-auto lg:px-2 max-w-7xl py-9">
             <div className="container flex items-center justify-between w-full mx-auto">
               <Image
                 src="/images/logo.png"
