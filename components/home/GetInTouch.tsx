@@ -24,13 +24,13 @@ const GetInTouch = () => {
           <div className="w-full">
             <h3 className={`${fraunces.className} text-md text-cream`}>
               Tel:{" "}
-              <span className={`${barlow.className}`}>+263 71 311 0810</span>
+              <span className={`${barlow.className}`}>+263 772 283 854</span>
             </h3>
           </div>
           <div className="w-full">
             <h3 className={`${fraunces.className} text-md text-cream`}>
               Tel:{" "}
-              <span className={`${barlow.className}`}>+263 77 296 4425</span>
+              <span className={`${barlow.className}`}>+263 713 110  810</span>
             </h3>
           </div>
         </div>
