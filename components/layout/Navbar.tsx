@@ -27,6 +27,10 @@ export const links = [
     text: "Our Livestock"
   },
   {
+    url: '/advice',
+    text: "Advice"
+  },
+  {
     url: '/events',
     text: "Events"
   },
