@@ -18,7 +18,7 @@ export default function ProduceGrid() {
       id: 2,
       title: "Assorted Vegetables",
       slug: "assorted-vegetables",
-      price: "",
+      price: "$2.00 - $5.00",
       image: "/images/organic_vegetables.jpg",
       description:
         "Indulge in our diverse selection of farm-fresh, organic vegetables, carefully handpicked at the peak of ripeness to ensure unmatched flavor and quality. Our colorful and nutritious assortment will not only elevate your culinary creations but also contribute to a wholesome and satisfying diet. Treat yourself and your loved ones to the best that nature has to offer with our premium assortment of vegetables.",
