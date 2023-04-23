@@ -14,15 +14,19 @@ const Home: NextPage = () => {
       <Head>
         <title>Sikunye Agro</title>
         <link rel="icon" href="/favicon.ico" />
+        <meta
+          name="facebook-domain-verification"
+          content="f1pq663cpokz4078bb0wz3y1p8pdj7"
+        />
       </Head>
-     <HomeHero />
+      <HomeHero />
 
-     <OurProduce />
-     <OurFarm />
-     <WhySection />
-     <GetInTouch />
+      <OurProduce />
+      <OurFarm />
+      <WhySection />
+      <GetInTouch />
     </Fragment>
-  )
+  );
 }
 
 export default Home
