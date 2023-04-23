@@ -19,9 +19,9 @@ export default function AboutHero() {
             to providing our customers with the best products and service
             possible.
           </p>
-          <button className="mt-12 text-lg uppercase font-medium leading-none text-white bg-grey-blue rounded sm:p-4 p-6 sm:w-auto w-full focus:outline-none hover:bg-indigo-600 focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700">
+          {/* <button className="mt-12 text-lg uppercase font-medium leading-none text-white bg-grey-blue rounded sm:p-4 p-6 sm:w-auto w-full focus:outline-none hover:bg-indigo-600 focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700">
             Contact Us
-          </button>
+          </button> */}
         </div>
         <div className="sm:w-1/2 w-11/12 py-10 sm:mt-0 mt-14 sm:ml-0 ml-7  bg-grey-blue rounded-3xl">
           <Image
