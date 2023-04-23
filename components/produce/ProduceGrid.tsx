@@ -94,6 +94,86 @@ export default function ProduceGrid() {
         "Introducing our Clementine Naartjies Seedlings, a wonderful choice for those looking to grow their own sweet and juicy citrus fruits! These seedlings are nurtured to provide a strong foundation for a thriving tree, which will eventually produce an abundance of seedless, easy-to-peel naartjies. Their delightful flavor and convenient size make them perfect for snacking, adding to lunchboxes, or incorporating into a variety of dishes. Start growing your own naartjies today and enjoy the benefits of fresh, homegrown citrus!",
       category: "Seedlings",
     },
+    {
+      id: 10,
+      title: "Lime ",
+      slug: "lime",
+      price: "$4.00 - $5.00",
+      image: "/images/lime.jpg",
+      description:
+        "Introducing our Luscious Lime Seedlings, an excellent option for those eager to cultivate their very own zesty and refreshing citrus fruits! These seedlings are carefully nurtured to establish a robust foundation for a flourishing tree, which will ultimately yield a generous harvest of juicy, seedless limes. Their invigorating taste and handy size make them ideal for snacking, incorporating into beverages, or adding a tangy twist to numerous recipes. Begin growing your own limes today and savor the advantages of fresh, homegrown citrus!",
+      category: "Seedlings",
+    },
+    {
+      id: 11,
+      title: "Rosemary ",
+      slug: "rosemary",
+      price: "$1.00 - $2.00",
+      image: "/images/rosemary.jpg",
+      description:
+        "Our organically grown Rosemary is a fragrant and versatile herb that boasts a range of health benefits. It is known for its ability to enhance memory and concentration, as well as its anti-inflammatory and antioxidant properties. Rosemary is a must-have for any kitchen, adding a delicious and aromatic flavor to a variety of dishes.",
+      category: "Herbs",
+    },
+    {
+      id: 12,
+      title: "Yarrow",
+      slug: "yarrow",
+      price: "$1.00 - $2.00",
+      image: "/images/yarrow.jpg",
+      description:
+        "Yarrow is a beautiful and potent herb grown organically on our farm. It has been traditionally used for its ability to stop bleeding, reduce inflammation, and promote wound healing. Yarrow also has antispasmodic properties, making it a popular choice for relieving menstrual cramps and digestive issues.",
+      category: "Herbs",
+    },
+    {
+      id: 13,
+      title: "Russian Comfrey",
+      slug: "russian_comfrey",
+      price: "$1.00 - $2.00",
+      image: "/images/russian_comfrey.jpg",
+      description:
+        "Russian Comfrey is an organically grown herb that has been used for centuries for its powerful medicinal properties. It is known for promoting the healing of wounds, sprains, and fractures, as well as its ability to reduce inflammation and alleviate pain. Additionally, Russian Comfrey is a fantastic organic fertilizer, making it a valuable addition to any garden.",
+      category: "Herbs",
+    },
+    {
+      id: 14,
+      title: "Moringa",
+      slug: "moringa",
+      price: "$0.50 - $1.00",
+      image: "/images/moringa.jpg",
+      description:
+        "Moringa is a nutrient-dense and versatile herb that is organically grown on our farm. Known as the 'Miracle Tree,' Moringa is packed with vitamins, minerals, and antioxidants, offering numerous health benefits such as boosting energy levels, improving immune function, and reducing inflammation. Incorporate Moringa into your diet to enjoy its nutritional and health-boosting properties.",
+      category: "Herbs",
+    },
+    {
+      id: 15,
+      title: "Stinging Nettle",
+      slug: "stinging_nettle",
+      price: "$1.00 - $2.00",
+      image: "/images/stinging_nettle.jpg",
+      description:
+        "Our organically grown Stinging Nettle is a powerful and versatile herb known for its numerous health benefits. It is rich in vitamins, minerals, and antioxidants that help reduce inflammation, alleviate allergy symptoms, and support overall well-being. Stinging Nettle can be used in teas, tinctures, or as a nutritious addition to meals.",
+      category: "Herbs",
+    },
+    {
+      id: 16,
+      title: "Marjoram",
+      slug: "marjoram",
+      price: "$1.00 - $2.00",
+      image: "/images/marjoram.jpg",
+      description:
+        "Marjoram is a delightful and fragrant herb organically grown on our farm. It is known for its calming properties, making it a popular choice for relieving stress and promoting restful sleep. Marjoram also offers digestive and anti-inflammatory benefits, making it a valuable addition to your kitchen and medicine cabinet.",
+      category: "Herbs",
+    },
+    {
+      id: 17,
+      title: "Oregano",
+      slug: "oregano",
+      price: "$1.00 - $2.00",
+      image: "/images/oregano.jpg",
+      description:
+        "Our organically grown Oregano is a staple herb in kitchens around the world. Known for its potent antioxidant and antimicrobial properties, Oregano is a powerful ally in fighting infections and supporting immune health. Its robust flavor and aroma make it a delicious addition to a variety of dishes, from Italian to Mexican cuisine.",
+      category: "Herbs",
+    },
   ];
 
 
